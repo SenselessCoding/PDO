@@ -107,6 +107,7 @@ session_start();
 
     <button type="submit">Insert</button>
   </form>
+<!-- Our query table is here -->
 </body>
 </html>
 ```
