@@ -138,7 +138,7 @@ As mentioned before ``w3schools`` covers all of this in more depth.<br>
 
 ### Delete
 Typo in your insert? It's time to add a delete method!<br>
-Just before your closing tag of the ``table row`` in your table add following:
+Just before your closing tag of the ``table row`` in your table, add following:
 ```php
               echo "<td>
                       <form action='delete.php' method='POST' style='display:inline-block;'>
