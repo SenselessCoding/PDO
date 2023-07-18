@@ -1,5 +1,11 @@
 # PDO
-Allrounder Tips for PDO
+Allrounder Tips for PDO, kept quite basic tho
+
+### Before we start
+I will be using a simple setup for front-/backend.<br>
+If you got your own configuration skip this part, otherwise have a look at [my setup](https://github.com/vuejs/vue).<br>
+
+---
 
 ### Connect
 
