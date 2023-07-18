@@ -148,7 +148,7 @@ Just before your closing tag of the ``table row`` in your table, add following:
                     </td>";
 ```
 
-Similiar to the query we build our delete statement:
+Similiar to the query, we build our delete statement:
 
 ```php
 <?php
