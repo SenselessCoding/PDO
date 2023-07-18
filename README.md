@@ -111,7 +111,7 @@ session_start();
 </body>
 </html>
 ```
-Now we want to use those variables in a new file so our ``insert.php`` can actually do something.<br>
+We want to use those variables in a new file so our ``insert.php`` can actually do something, this is why we chose to use sessions<br>
 
 ```php
 <?php
