@@ -14,18 +14,17 @@ If you got your own configuration skip this part, otherwise have a look at [my s
 In general, this should do for the most basic sites:
 ```php
 <?php
-$servername = "localhost";
-$username = "username";
-$password = "password";
+$host = "localhost";
+$dbname = "yourdb";
+$username = "root";
+$password = "";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password);
-
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
+try {
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    die("Connection failed: " . $e->getMessage());
 }
-echo "Connected successfully";
 ?>
 ```
 
