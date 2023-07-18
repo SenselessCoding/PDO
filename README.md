@@ -46,7 +46,7 @@ require_once 'connect.php';
 ### Query
 Great, we should be set now.<br>
 With plain PHP we can create a somewhat structured table to display query results.<br>
-[Here]() I tried my best to make it a bit prettier, less readable for newbies however.<br>
+[Here](https://github.com/SenselessCoding/PDO_prettified-) I tried my best to make it a bit prettier, less readable for newbies however.<br>
 
 ```php
 <table>
