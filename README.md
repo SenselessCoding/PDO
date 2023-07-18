@@ -1,5 +1,5 @@
 # PDO
-PDO tricks and tips for CRUD, kept quite basic tho
+CRUD with PDO tutorial, kept quite basic tho
 
 ### Before we start
 I will be using a simple setup for front-/backend.<br>
