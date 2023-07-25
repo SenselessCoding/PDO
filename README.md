@@ -96,7 +96,7 @@ session_start();
 
   <!-- Form for inserting data -->
   <form action="insert.php" method="POST">
-    <labelfor="orderID">Order ID:</label>
+    <label for="orderID">Order ID:</label>
     <input type="text" id="orderID" name="orderID" placeholder="Enter order ID">
 
     <label for="orderNumber">Order Number:</label>
